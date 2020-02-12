@@ -1,0 +1,2 @@
+include ':ptt'
+rootProject.name='PullToTransition'

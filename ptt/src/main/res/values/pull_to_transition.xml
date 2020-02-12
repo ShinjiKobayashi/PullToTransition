@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PullToTransitionLayout">
+        <attr name="pull_target" format="reference" />
+        <attr name="finish_distance" format="dimension" />
+    </declare-styleable>
+</resources>
