@@ -13,3 +13,4 @@
 .externalNativeBuild
 .cxx
 /repository
+.idea/codeStyles/Project.xml
