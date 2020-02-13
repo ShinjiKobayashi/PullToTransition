@@ -148,6 +148,12 @@ class PullToTransitionLayout : FrameLayout {
                             generateDraggingView()
                         }
                     }
+                    
+                    if (event.y < startY) {
+                        resetState()
+                        callback?.onCancelTransition()
+                    }
+                    
                     prevX = event.x
                     prevY = event.y
                     callback?.onDragging(v, event)
@@ -195,7 +201,7 @@ class PullToTransitionLayout : FrameLayout {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             getBitmapFromView(targetView) {
                 draggingBitmap = it
-                draggingStatus = if (it != null) DraggingStatus.STARTED else DraggingStatus.EXITED
+                draggingStatus = if (it != null && draggingStatus == DraggingStatus.START) DraggingStatus.STARTED else DraggingStatus.DEFAULT
             }
         } else {
             draggingBitmap = Bitmap.createBitmap(targetView.width, targetView.height, Bitmap.Config.ARGB_8888)
@@ -204,7 +210,7 @@ class PullToTransitionLayout : FrameLayout {
                 targetView.draw(canvas)
                 DraggingStatus.STARTED
             } else {
-                DraggingStatus.EXITED
+                DraggingStatus.DEFAULT
             }
         }
     }
