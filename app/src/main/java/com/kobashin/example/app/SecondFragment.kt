@@ -10,6 +10,8 @@ import android.widget.Button
 import androidx.navigation.fragment.findNavController
 import kobashin.com.library.ptt.OnTransitionEvent
 import kobashin.com.library.ptt.PullToTransitionLayout
+import kobashin.com.library.ptt.ext.dp
+import kotlin.math.abs
 
 /**
  * A simple [Fragment] subclass as the second destination in the navigation.
@@ -32,6 +34,7 @@ class SecondFragment : Fragment() {
         }
 
         view.findViewById<PullToTransitionLayout>(R.id.container_pull_transition).callback = object : OnTransitionEvent {
+
             override fun onDragging(v: View, event: MotionEvent) {
                 // PullToTransitionLayout bypass the TouchEvent's ACTION_MOVE
             }
@@ -40,9 +43,13 @@ class SecondFragment : Fragment() {
                 // TODO
             }
 
-            override fun whetherStartTransition(v: View, event: MotionEvent): Boolean {
-                // TODO
-                return true
+            override fun whetherStartTransition(
+                v: View,
+                event: MotionEvent,
+                startX: Float,
+                startY: Float
+            ): Boolean {
+                return event.action == MotionEvent.ACTION_MOVE && event.y - startY > 15.dp && abs(event.x - startX) < 10.dp
             }
 
             override fun onFinishTransition() {

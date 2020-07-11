@@ -15,34 +15,25 @@ import android.widget.FrameLayout
 import kotlin.math.PI
 import kotlin.math.asin
 import android.graphics.Bitmap
+import android.util.Log
 import kobashin.com.library.ptt.ext.dp
 
 
 interface OnTransitionEvent {
-    fun whetherStartTransition(v: View, event: MotionEvent): Boolean
+    fun whetherStartTransition(v: View, event: MotionEvent, startX: Float, startY: Float): Boolean
     fun onDragging(v: View, event: MotionEvent)
     fun onFinishTransition()
     fun onCancelTransition()
 }
 
-enum class DraggingStatus {
-    DEFAULT,
-    START, // whetherStartTransition == trueになったとき
-    STARTED, // drag用のBitmapが用意できたとき
-    LOCATION,
-    DROP,
-    ENDED,
-    EXITED;
-
-    fun isDragging(): Boolean = when (this) {
-        DEFAULT -> false
-        STARTED -> true
-        LOCATION -> true
-        DROP -> false
-        ENDED -> false
-        EXITED -> false
-        START -> false
-    }
+enum class DraggingStatus(val isDragging: Boolean, val isConsumedEvent: Boolean) {
+    DEFAULT(false, true),
+    START(false, false), // whetherStartTransition == trueになったとき
+    STARTED(true, true), // drag用のBitmapが用意できたとき
+    LOCATION(true, true),
+    DROP(false, false),
+    ENDED(false, false),
+    EXITED(false, false);
 }
 
 
@@ -103,10 +94,11 @@ class PullToTransitionLayout : FrameLayout {
 
     private fun attachView() {
         targetView.setOnTouchListener { v, event ->
+            Log.i("koba", event.toString())
             var dirty = false
             when (event.action) {
                 MotionEvent.ACTION_UP -> {
-                    if (draggingStatus.isDragging()) {
+                    if (draggingStatus.isDragging) {
                         if (event.y - startY > finishDistance!!) {
                             callback?.onFinishTransition()
                         } else {
@@ -123,26 +115,25 @@ class PullToTransitionLayout : FrameLayout {
 
                 }
                 MotionEvent.ACTION_DOWN -> {
-                    draggingStatus = checkState(v, event)
+                    draggingStatus = DraggingStatus.DEFAULT
 
                     startX = event.x
                     startY = event.y
                     prevX = event.x
                     prevY = event.y
 
-                    if (draggingStatus == DraggingStatus.START) {
-                        generateDraggingView()
-                    }
                     dirty = true
                 }
                 MotionEvent.ACTION_MOVE -> {
-                    if (draggingStatus.isDragging()) {
+                    if (draggingStatus.isDragging) {
                         draggingStatus = DraggingStatus.LOCATION
                     } else if (draggingStatus == DraggingStatus.DEFAULT) {
                         // 初回のDOWNが来ずにMOVEから始まるケースが存在する
-                        draggingStatus = checkState(v, event)
-                        startX = event.x
-                        startY = event.y
+                        if (startX == 0F && startY == 0F) {
+                            startX = event.x
+                            startY = event.y
+                        }
+                        draggingStatus = checkState(v, event, startX, startY)
 
                         if (draggingStatus == DraggingStatus.START) {
                             generateDraggingView()
@@ -160,7 +151,7 @@ class PullToTransitionLayout : FrameLayout {
                     dirty = true
                 }
                 MotionEvent.ACTION_CANCEL -> {
-                    if (draggingStatus.isDragging()) {
+                    if (draggingStatus.isDragging) {
                         resetState()
                     }
                     startX = 0.0F
@@ -175,11 +166,10 @@ class PullToTransitionLayout : FrameLayout {
             }
 
             // drag中はイベントを消費する
-            val active = draggingStatus.isDragging()
             if (dirty) {
                 invalidate()
             }
-            active
+            draggingStatus.isConsumedEvent
         }
     }
 
@@ -189,9 +179,11 @@ class PullToTransitionLayout : FrameLayout {
 
     private fun checkState(
         v: View,
-        event: MotionEvent
+        event: MotionEvent,
+        startX: Float,
+        startY: Float
     ): DraggingStatus = if (draggingStatus == DraggingStatus.DEFAULT) {
-            if (callback?.whetherStartTransition(v, event) == true) {
+            if (callback?.whetherStartTransition(v, event, startX, startY) == true) {
                 DraggingStatus.START
             } else DraggingStatus.DEFAULT
         } else draggingStatus
@@ -227,7 +219,7 @@ class PullToTransitionLayout : FrameLayout {
 
     // Step 4, draw the children
     override fun dispatchDraw(canvas: Canvas?) {
-        if (!draggingStatus.isDragging()) {
+        if (!draggingStatus.isDragging) {
             super.dispatchDraw(canvas)
         } else if (draggingBitmap != null) {
             val matrix = Matrix().apply {
@@ -241,7 +233,7 @@ class PullToTransitionLayout : FrameLayout {
 
     // Step 6, draw decorations (foreground, scrollbars)
     override fun onDrawForeground(canvas: Canvas?) {
-        if (!draggingStatus.isDragging()) {
+        if (!draggingStatus.isDragging) {
             super.onDrawForeground(canvas)
         }
     }
