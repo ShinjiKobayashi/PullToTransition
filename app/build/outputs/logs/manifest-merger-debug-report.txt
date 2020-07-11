@@ -1,0 +1,208 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml:2:1-24:12
+MERGED from [:ptt] /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/ptt/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/d1afcf12293c47606593d2c1b52561d0/navigation-fragment-ktx-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/45822eb0bf0ccb622a1781aa947946aa/fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/87f3ea8a69f7015f9e9cdc6340d3465d/navigation-ui-ktx-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/d68aeadcec6035ef21b98d7832d87907/navigation-runtime-ktx-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/696c5e5ae8e4536ae42a62a414531299/navigation-common-ktx-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/f794b81d940895fd508362774e048f75/activity-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/252000542978fda28075d3834ad063bc/core-ktx-1.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/467bc5cee237c56ae2855e27a1d9ac76/lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/35a1cb419abe663e969f5d6fac591193/lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/1c953c5c90b8088c716318c38d7f6656/lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/413e8af64925ffd2458e0fc0cd6e1103/navigation-ui-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/03cbc874fca34cfdd4046bf69923b8d9/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/0c1936c30a85396091c438d3d714fea2/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/5ced732566e368c062583722e89e05d0/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/ac926b25c553bcc6bbdede61eb1dcb54/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/75687c7b85bfcee37dce41febd4cc8d5/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/ab7db52eeee434d0ae396a9385ff866a/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/5d5fd365740818d5b3263534b65ca783/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/624baa8a800f9d44805a6ecf32ac0d08/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/ee06dd431bb166c68f849a8460c506fc/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/e41f11ccf78752c4ab660f312ca55f6d/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/40d9339f31138bf7c706e4d3823dba8e/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/39c6256792a01c17a68e1562b28313a0/navigation-fragment-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/60267c2bf1ce1483dee74df47a23775b/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/ac6f508190492abc9005c3317e9b4c00/drawerlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/8d3ffdff154d2b1595294e4da3cb81ea/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/0d76bd780c9297622f5b3a0128ffe671/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/934c91a0d2843e29fea0028904620559/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/71de13583eedfbcf0e88fb174d9e495a/navigation-runtime-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/fb1f789956aad49cf20b2db0e4997010/navigation-common-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/7e742424b419d2a7c46e91d4daf262a0/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/76e7c071b01f04e394378e2d4b21ca87/activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/a7a69bc16620f4232897b7b22c09280e/core-1.3.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/395a9c44129374a3cf0092b8799dd124/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/7efe576b79a603f80f95ebe28b974ad4/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/2ab45443bd2e57c58a563c14fcac2acd/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/67841b53bf0c5eabd650f50a84dc1059/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/242bedae014f734c14a25f4fdfb9c104/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/b4cab5d77e90f2782bab71ea2b734f30/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/142a3948580e3543ccb1f761f6249da7/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/1bc47283ca4c28258af2692eb3b374cd/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/a9c2da073f7c679085897e00a446a2b4/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml:3:5-39
+		INJECTED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml:5:5-22:19
+MERGED from [com.google.android.material:material:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/03cbc874fca34cfdd4046bf69923b8d9/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/03cbc874fca34cfdd4046bf69923b8d9/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/5ced732566e368c062583722e89e05d0/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/5ced732566e368c062583722e89e05d0/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/a7a69bc16620f4232897b7b22c09280e/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/a7a69bc16620f4232897b7b22c09280e/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/395a9c44129374a3cf0092b8799dd124/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/395a9c44129374a3cf0092b8799dd124/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/a7a69bc16620f4232897b7b22c09280e/core-1.3.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.kobashin.example.app.MainActivity
+ADDED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml:12:9-21:20
+	android:label
+		ADDED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml:14:13-55
+	android:theme
+		ADDED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml:15:13-56
+	android:name
+		ADDED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml:13:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml
+INJECTED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml
+MERGED from [:ptt] /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/ptt/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:ptt] /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/ptt/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/d1afcf12293c47606593d2c1b52561d0/navigation-fragment-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/d1afcf12293c47606593d2c1b52561d0/navigation-fragment-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/45822eb0bf0ccb622a1781aa947946aa/fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/45822eb0bf0ccb622a1781aa947946aa/fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/87f3ea8a69f7015f9e9cdc6340d3465d/navigation-ui-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/87f3ea8a69f7015f9e9cdc6340d3465d/navigation-ui-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/d68aeadcec6035ef21b98d7832d87907/navigation-runtime-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/d68aeadcec6035ef21b98d7832d87907/navigation-runtime-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/696c5e5ae8e4536ae42a62a414531299/navigation-common-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/696c5e5ae8e4536ae42a62a414531299/navigation-common-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/f794b81d940895fd508362774e048f75/activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/f794b81d940895fd508362774e048f75/activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/252000542978fda28075d3834ad063bc/core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/252000542978fda28075d3834ad063bc/core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/467bc5cee237c56ae2855e27a1d9ac76/lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/467bc5cee237c56ae2855e27a1d9ac76/lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/35a1cb419abe663e969f5d6fac591193/lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/35a1cb419abe663e969f5d6fac591193/lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/1c953c5c90b8088c716318c38d7f6656/lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/1c953c5c90b8088c716318c38d7f6656/lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/413e8af64925ffd2458e0fc0cd6e1103/navigation-ui-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/413e8af64925ffd2458e0fc0cd6e1103/navigation-ui-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/03cbc874fca34cfdd4046bf69923b8d9/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/03cbc874fca34cfdd4046bf69923b8d9/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/0c1936c30a85396091c438d3d714fea2/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/0c1936c30a85396091c438d3d714fea2/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/5ced732566e368c062583722e89e05d0/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/5ced732566e368c062583722e89e05d0/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/ac926b25c553bcc6bbdede61eb1dcb54/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/ac926b25c553bcc6bbdede61eb1dcb54/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/75687c7b85bfcee37dce41febd4cc8d5/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/75687c7b85bfcee37dce41febd4cc8d5/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/ab7db52eeee434d0ae396a9385ff866a/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/ab7db52eeee434d0ae396a9385ff866a/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/5d5fd365740818d5b3263534b65ca783/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/5d5fd365740818d5b3263534b65ca783/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/624baa8a800f9d44805a6ecf32ac0d08/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/624baa8a800f9d44805a6ecf32ac0d08/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/ee06dd431bb166c68f849a8460c506fc/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/ee06dd431bb166c68f849a8460c506fc/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/e41f11ccf78752c4ab660f312ca55f6d/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/e41f11ccf78752c4ab660f312ca55f6d/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/40d9339f31138bf7c706e4d3823dba8e/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/40d9339f31138bf7c706e4d3823dba8e/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/39c6256792a01c17a68e1562b28313a0/navigation-fragment-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/39c6256792a01c17a68e1562b28313a0/navigation-fragment-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/60267c2bf1ce1483dee74df47a23775b/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/60267c2bf1ce1483dee74df47a23775b/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/ac6f508190492abc9005c3317e9b4c00/drawerlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/ac6f508190492abc9005c3317e9b4c00/drawerlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/8d3ffdff154d2b1595294e4da3cb81ea/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/8d3ffdff154d2b1595294e4da3cb81ea/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/0d76bd780c9297622f5b3a0128ffe671/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/0d76bd780c9297622f5b3a0128ffe671/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/934c91a0d2843e29fea0028904620559/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/934c91a0d2843e29fea0028904620559/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/71de13583eedfbcf0e88fb174d9e495a/navigation-runtime-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/71de13583eedfbcf0e88fb174d9e495a/navigation-runtime-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/fb1f789956aad49cf20b2db0e4997010/navigation-common-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/fb1f789956aad49cf20b2db0e4997010/navigation-common-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/7e742424b419d2a7c46e91d4daf262a0/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/7e742424b419d2a7c46e91d4daf262a0/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/76e7c071b01f04e394378e2d4b21ca87/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/76e7c071b01f04e394378e2d4b21ca87/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/a7a69bc16620f4232897b7b22c09280e/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/a7a69bc16620f4232897b7b22c09280e/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/395a9c44129374a3cf0092b8799dd124/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/395a9c44129374a3cf0092b8799dd124/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/7efe576b79a603f80f95ebe28b974ad4/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/7efe576b79a603f80f95ebe28b974ad4/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/2ab45443bd2e57c58a563c14fcac2acd/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/2ab45443bd2e57c58a563c14fcac2acd/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/67841b53bf0c5eabd650f50a84dc1059/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/67841b53bf0c5eabd650f50a84dc1059/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/242bedae014f734c14a25f4fdfb9c104/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/242bedae014f734c14a25f4fdfb9c104/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/b4cab5d77e90f2782bab71ea2b734f30/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/b4cab5d77e90f2782bab71ea2b734f30/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/142a3948580e3543ccb1f761f6249da7/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/142a3948580e3543ccb1f761f6249da7/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/1bc47283ca4c28258af2692eb3b374cd/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/1bc47283ca4c28258af2692eb3b374cd/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/a9c2da073f7c679085897e00a446a2b4/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/shinjkob/.gradle/caches/transforms-2/files-2.1/a9c2da073f7c679085897e00a446a2b4/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml
+INJECTED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/src/main/AndroidManifest.xml

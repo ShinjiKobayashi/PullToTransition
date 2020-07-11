@@ -1,0 +1,4 @@
+#Sun Jul 12 01:10:09 JST 2020
+base.0=/Users/shinjkob/workspace/git/github.com/ShinjiKobayashi/PullToTransition/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
