@@ -3,10 +3,13 @@ package com.kobashin.example.app
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
+import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.navigation.fragment.findNavController
+import kobashin.com.library.ptt.OnTransitionEvent
+import kobashin.com.library.ptt.PullToTransitionLayout
 
 /**
  * A simple [Fragment] subclass as the second destination in the navigation.
@@ -26,6 +29,25 @@ class SecondFragment : Fragment() {
 
         view.findViewById<Button>(R.id.button_second).setOnClickListener {
             findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
+        }
+
+        view.findViewById<PullToTransitionLayout>(R.id.container_pull_transition).callback = object : OnTransitionEvent {
+            override fun onDragging(v: View, event: MotionEvent) {
+                // PullToTransitionLayout bypass the TouchEvent's ACTION_MOVE
+            }
+
+            override fun onCancelTransition() {
+                // TODO
+            }
+
+            override fun whetherStartTransition(v: View, event: MotionEvent): Boolean {
+                // TODO
+                return true
+            }
+
+            override fun onFinishTransition() {
+                findNavController().popBackStack()
+            }
         }
     }
 }
